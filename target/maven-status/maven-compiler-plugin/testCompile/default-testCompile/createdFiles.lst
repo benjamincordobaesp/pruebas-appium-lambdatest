@@ -1,0 +1,5 @@
+com/proyecto/ui/CalculatorScreen.class
+com/proyecto/runners/CalculatorRunner.class
+com/proyecto/stepdefinitions/CalculatorStepDefinitions.class
+com/proyecto/questions/CalculatorResult.class
+com/proyecto/tasks/AddNumbers.class
