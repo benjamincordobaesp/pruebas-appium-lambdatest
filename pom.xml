@@ -14,7 +14,7 @@
         <serenity.version>5.2.2</serenity.version>
         <serenity.cucumber.version>5.2.2</serenity.cucumber.version>
         <cucumber.version>7.14.0</cucumber.version>
-        <appium.client.version>8.6.0</appium.client.version>
+        <appium.client.version>9.3.0</appium.client.version>
         <junit.version>4.13.2</junit.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
