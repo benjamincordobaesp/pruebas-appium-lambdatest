@@ -1,3 +1,4 @@
+com/proyecto/baseline/RawAppiumIT.class
 com/proyecto/ui/CalculatorScreen.class
 com/proyecto/runners/CalculatorRunner.class
 com/proyecto/stepdefinitions/CalculatorStepDefinitions.class

@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: com.proyecto.baseline.RawAppiumIT
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.220 s <<< FAILURE! -- in com.proyecto.baseline.RawAppiumIT
+com.proyecto.baseline.RawAppiumIT.testCalculatorOnLambdaTest -- Time elapsed: 1.210 s <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 401. Message: d245f4fcfe0d4e3f81549e502e9b48d1: Unauthorized, either Username or AccessKey is invalid 
+Host info: host: 'mac.lan', ip: 'fd4c:c0c2:975:14f9:823:9fa1:3a01:2f32%en0'
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.2', java.version: '17.0.18'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.android.calculator2.Calculator, appium:appPackage=com.google.android.calculator, appium:deviceName=Pixel 7, appium:platformVersion=13, lt:options={plugin=java-junit, build=Raw Appium Debug, accessKey=LT_2bwpfzTHsNblyFBf50ALByr54BrNECft9z0PdYkblJBr10W, w3c=true, name=Vanilla Appium Execution, isRealMobile=true, user=czamoranomercantilbanco}, platformName=ANDROID}], desiredCapabilities=Capabilities {appium:appActivity: com.android.calculator2.Cal..., appium:appPackage: com.google.android.calculator, appium:deviceName: Pixel 7, appium:platformVersion: 13, lt:options: {accessKey: LT_2bwpfzTHsNblyFBf50ALByr5..., build: Raw Appium Debug, isRealMobile: true, name: Vanilla Appium Execution, plugin: java-junit, user: czamoranomercantilbanco, w3c: true}, platformName: ANDROID}}]
+Capabilities {appium:appActivity: com.android.calculator2.Cal..., appium:appPackage: com.google.android.calculator, appium:deviceName: Pixel 7, appium:platformVersion: 13, lt:options: {accessKey: LT_2bwpfzTHsNblyFBf50ALByr5..., build: Raw Appium Debug, isRealMobile: true, name: Vanilla Appium Execution, plugin: java-junit, user: czamoranomercantilbanco, w3c: true}, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:113)
+	at com.proyecto.baseline.RawAppiumIT.testCalculatorOnLambdaTest(RawAppiumIT.java:40)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

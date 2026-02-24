@@ -1,5 +1,6 @@
-/Users/benjamin/lambdatest-example/src/test/java/com/proyecto/ui/CalculatorScreen.java
-/Users/benjamin/lambdatest-example/src/test/java/com/proyecto/tasks/AddNumbers.java
-/Users/benjamin/lambdatest-example/src/test/java/com/proyecto/questions/CalculatorResult.java
-/Users/benjamin/lambdatest-example/src/test/java/com/proyecto/runners/CalculatorRunner.java
-/Users/benjamin/lambdatest-example/src/test/java/com/proyecto/stepdefinitions/CalculatorStepDefinitions.java
+/Users/benjamin/pruebas-appium-lambdatest/src/test/java/com/proyecto/baseline/RawAppiumIT.java
+/Users/benjamin/pruebas-appium-lambdatest/src/test/java/com/proyecto/questions/CalculatorResult.java
+/Users/benjamin/pruebas-appium-lambdatest/src/test/java/com/proyecto/ui/CalculatorScreen.java
+/Users/benjamin/pruebas-appium-lambdatest/src/test/java/com/proyecto/runners/CalculatorRunner.java
+/Users/benjamin/pruebas-appium-lambdatest/src/test/java/com/proyecto/stepdefinitions/CalculatorStepDefinitions.java
+/Users/benjamin/pruebas-appium-lambdatest/src/test/java/com/proyecto/tasks/AddNumbers.java
