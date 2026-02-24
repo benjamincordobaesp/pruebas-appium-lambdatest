@@ -18,11 +18,11 @@ public class CalculatorScreen {
 
         // Botón de suma (+)
         public static final Target ADD_BUTTON = Target.the("botón de suma")
-                        .located(AppiumBy.accessibilityId("plus"));
+                        .locatedBy("//*[@content-desc='plus' or @resource-id='com.google.android.calculator:id/op_add']");
 
         // Botón de igual (=)
         public static final Target EQUALS_BUTTON = Target.the("botón de igual")
-                        .located(AppiumBy.accessibilityId("equals"));
+                        .locatedBy("//*[@content-desc='equals' or @resource-id='com.google.android.calculator:id/eq']");
 
         // Campo de resultados donde se muestra la operación final ("result_final") o
         // parcial ("result_preview")
